@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8125110c75160a648917a8d65d87d3e0, type: 3}
+  m_Name: blue_can_data
+  m_EditorClassIdentifier: 
+  ID: 2
+  DisplayName: Blue Can
+  Description: It's a blue empty can! I wonder how this beverage tastes...
+  Icon: {fileID: 21300000, guid: 74230e3df844e1f49a4ffc854eb3d318, type: 3}
+  MaxStackSize: 8
