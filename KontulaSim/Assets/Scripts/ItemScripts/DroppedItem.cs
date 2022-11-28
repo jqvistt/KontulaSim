@@ -17,7 +17,7 @@ public class DroppedItem : MonoBehaviour
 
     IEnumerator FreezeDrop()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.5f);
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         audioSource.PlayOneShot(hitGround, 1);
     }
