@@ -8,7 +8,7 @@ public class InventorySlot_UI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemCount;
     [SerializeField] private InventorySlot assignedInventorySlot;
 
-    private Button button;
+    public Button button;
 
     public InventorySlot AssignedInventorySlot => assignedInventorySlot;
     public InventoryDisplay ParentDisplay { get; private set; }
@@ -21,7 +21,7 @@ public class InventorySlot_UI : MonoBehaviour
         button = GetComponent<Button>();
         button?.onClick.AddListener(OnUISlotClick);
 
-        ParentDisplay = transform.GetComponent<InventoryDisplay>();
+        ParentDisplay = GetComponentInParent<InventoryDisplay>();
     }
 
     public void Init(InventorySlot slot)
@@ -59,6 +59,7 @@ public class InventorySlot_UI : MonoBehaviour
     }
     public void OnUISlotClick()
     {
-        ParentDisplay?.SlotClicked(this);
+        ParentDisplay.SlotClicked(this);
+        Debug.Log("OnUISlotClicked running!");
     }
 }

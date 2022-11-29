@@ -141,6 +141,7 @@ MonoBehaviour:
   assignedInventorySlot:
     itemData: {fileID: 0}
     stackSize: -1
+  button: {fileID: 1076639665184535207}
 --- !u!1 &3541395528754463529
 GameObject:
   m_ObjectHideFlags: 0
