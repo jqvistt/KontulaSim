@@ -31,13 +31,23 @@ public abstract class InventoryDisplay : MonoBehaviour
 
     public void SlotClicked(InventorySlot_UI clickedUISlot)
     {
+        bool isShiftPressed = Keyboard.current.leftShiftKey.isPressed;
+
         if(clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null)
         {
             //If player is holding shift key? Split the stack
-
-            mouseInventoryItem.UpdateMouseSlot(clickedUISlot.AssignedInventorySlot);
-            clickedUISlot.ClearSlot();
-            return;
+            if(isShiftPressed && clickedUISlot.AssignedInventorySlot.SplitStack(out InventorySlot halfStackSlot)) // Split stack
+            {
+                mouseInventoryItem.UpdateMouseSlot(halfStackSlot);
+                clickedUISlot.UpdateUISlot();
+                return;
+            }
+            else
+            {
+                mouseInventoryItem.UpdateMouseSlot(clickedUISlot.AssignedInventorySlot);
+                clickedUISlot.ClearSlot();
+                return;
+            }           
         }
 
         // Clicked slot doesn't have an item - Mouse does have an item - Place the mouse item into empty slot.
@@ -46,6 +56,7 @@ public abstract class InventoryDisplay : MonoBehaviour
             clickedUISlot.AssignedInventorySlot.AssignItem(mouseInventoryItem.AssignedInventorySlot);
             clickedUISlot.UpdateUISlot();
             mouseInventoryItem.ClearSlot();
+            return;
         }
 
 
@@ -66,6 +77,7 @@ public abstract class InventoryDisplay : MonoBehaviour
                 clickedUISlot.UpdateUISlot();
 
                 mouseInventoryItem.ClearSlot();
+                return;
             }
             else if(isSameItem && 
                 !clickedUISlot.AssignedInventorySlot.RoomLeftInStack(mouseInventoryItem.AssignedInventorySlot.StackSize, out int leftInStack))
@@ -80,11 +92,13 @@ public abstract class InventoryDisplay : MonoBehaviour
                     var newItem = new InventorySlot(mouseInventoryItem.AssignedInventorySlot.ItemData, remainingOnMouse);
                     mouseInventoryItem.ClearSlot();
                     mouseInventoryItem.UpdateMouseSlot(newItem);
+                    return;
                 }
             }
             else if (!isSameItem)
             {
                 SwapSlots(clickedUISlot);
+                return;
             }
         }
 
