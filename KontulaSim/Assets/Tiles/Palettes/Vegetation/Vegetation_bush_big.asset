@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GTS2_24
+  m_Name: Vegetation_bush_big
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1949307697, guid: ef376ce95c3782b4ba61aa156da434ba, type: 3}
+  m_Sprite: {fileID: 493441047, guid: b44c3014363ec9848ae3ec6c35b60eb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

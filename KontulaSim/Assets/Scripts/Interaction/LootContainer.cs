@@ -30,10 +30,13 @@ public class LootContainer : MonoBehaviour
 
     public void InstantiateLoot(Vector3 spawnPosition)
     {
+        
+
+
         Loot droppedItem = GetDroppedItem();
         if (droppedItem != null)
         {
-            GameObject lootGameObject = Instantiate(droppedItem.dropPrefab, spawnPosition, Quaternion.identity);
+            GameObject lootGameObject = Instantiate(droppedItem.dropPrefab, spawnPosition + Vector3.up * 1, Quaternion.identity);
 
             float dropForce = 2.5f;
             Vector2 dropDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(0f, 0.5f));

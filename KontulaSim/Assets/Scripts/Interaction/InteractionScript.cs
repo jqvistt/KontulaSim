@@ -39,6 +39,7 @@ public GameObject Player;
         {
             GetComponent<LootContainer>().InstantiateLoot(transform.position);
             audioSource.PlayOneShot(lootSound, 1);
+
             looted = true;
             this.GetComponent<SpriteRenderer>().sprite = defSprite;
             StartCoroutine(LootCooldown()); // Starts looting cooldown
