@@ -60,6 +60,5 @@ public class InventorySlot_UI : MonoBehaviour
     public void OnUISlotClick()
     {
         ParentDisplay.SlotClicked(this);
-        Debug.Log("OnUISlotClicked running!");
     }
 }
