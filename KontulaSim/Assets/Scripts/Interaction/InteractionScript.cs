@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractionScript : MonoBehaviour {
-private bool inReach = false; // Bool for checking whether player is in reach to interact
-private bool looted = false; //Bool for checking whether object is looted or not
+public bool inReach = false; // Bool for checking whether player is in reach to interact
+public bool looted = false; //Bool for checking whether object is looted or not
 public AudioSource audioSource;
 public AudioClip lootSound;
 public AudioClip emptySound;
@@ -13,6 +13,7 @@ public Sprite defSprite; //Unactivated sprite
 public float cooldown = 10f; // Determines interaction cooldown
 
 public GameObject Player;
+public GameObject E_Popup;
 
     void start()
     {
@@ -26,7 +27,7 @@ public GameObject Player;
 
         if(inReach){
 
-            this.GetComponent<SpriteRenderer>().sprite = activeSprite;
+            this.GetComponent<SpriteRenderer>().sprite = activeSprite;   
 
         }
         else{

@@ -41,13 +41,24 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate(){
 
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Debug.Log("Shift Pressed");
+
+            speed = 3;
+            animator.speed = 2;
+
+        }
+        else 
+        {
+
+            speed = 2;
+            animator.speed = 1;
+
+        }
+               
+
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
-    //if(movement.x != 0 || movement.y != 0){
-    //    rb.velocity = movement * speed;
-    //    }
-
-
 
     }
 }

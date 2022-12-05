@@ -7,19 +7,25 @@ public class DroppedItem : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip hitGround;
+    private SpriteRenderer sprite;
+    public int inAir;
+    public int grounded;
 
     public Rigidbody2D rb;
     void Start()
     {
-    rb.constraints = RigidbodyConstraints2D.None;
-    StartCoroutine(FreezeDrop());
+        rb.constraints = RigidbodyConstraints2D.None;
+        StartCoroutine(FreezeDrop());   
     }
 
     IEnumerator FreezeDrop()
     {
-        yield return new WaitForSeconds(0.5f);
+        sprite = GetComponent<SpriteRenderer>();
+        sprite.sortingOrder = inAir;
+        yield return new WaitForSeconds(0.6f);
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         audioSource.PlayOneShot(hitGround, 1);
+        sprite.sortingOrder = grounded;
     }
 
 }
