@@ -12,12 +12,18 @@ public class PlayerMove : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
+    public VectorValue startingPosition;
 
     private void Awake(){
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
+    }
+
+    private void Start()
+    {
+        transform.position = startingPosition.initialValue;
     }
 
     private void OnMovement(InputValue value){

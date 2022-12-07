@@ -8,6 +8,9 @@ public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
     private bool inReach = false;
+    public Vector2 playerPosition;
+    public VectorValue playerStorage;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -31,9 +34,10 @@ public class SceneTransition : MonoBehaviour
     {
         if (inReach && Input.GetKeyDown(KeyCode.E))
         {
+            playerStorage.initialValue = playerPosition;
             SceneManager.LoadScene(sceneToLoad);
-            return;
         }
     }
+
 
 }
