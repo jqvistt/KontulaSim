@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
-    public VectorValue startingPosition;
+    public bool shiftPressed = false;
 
     private void Awake(){
 
@@ -23,7 +24,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Start()
     {
-        transform.position = startingPosition.initialValue;
+
     }
 
     private void OnMovement(InputValue value){
@@ -45,26 +46,46 @@ public class PlayerMove : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            shiftPressed = true;
+        }
+        else shiftPressed = false;
+
+        if (shiftPressed)
+        {
+            speed = 3;
+            animator.speed = 1.5f;
+        }
+
+        if (!shiftPressed)
+        {
+            speed = 2;
+            animator.speed = 1;
+        }
+    }
+
     private void FixedUpdate(){
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+
+        /*if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Debug.Log("Shift Pressed");
 
             speed = 3;
-            animator.speed = 2;
+            animator.speed = 1.5f;
 
         }
-        else 
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
+            Debug.Log("Shift Released!");
 
             speed = 2;
-            animator.speed = 1;
-
-        }
-               
-
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+            animator.speed = 1f;
+        }*/
 
     }
 }

@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractionScript : MonoBehaviour {
-public bool inReach = false; // Bool for checking whether player is in reach to interact
-public bool looted = false; //Bool for checking whether object is looted or not
-public AudioSource audioSource;
-public AudioClip lootSound;
-public AudioClip emptySound;
-public Sprite activeSprite; //Activated sprite
-public Sprite defSprite; //Unactivated sprite
-public float cooldown = 10f; // Determines interaction cooldown
+
+private bool inReach = false; // Bool for checking whether player is in reach to interact
+private bool looted = false; //Bool for checking whether object is looted or not
+
+public AudioSource audioSource;// 
+public AudioClip lootSound;// Sound to be played when a player loots the container
+
+public Sprite activeSprite; //Activated sprite, Shows whether the player is in reach or not.
+public Sprite defSprite; //Unactivated sprite, the default sprite for the gameObject.
+public Sprite lootedSprite; // Looted sprite
+
+public float cooldown = 10f; // Determines interaction cooldown, can be set in the inspector
 
 public GameObject Player;
-public GameObject E_Popup;
 
     void start()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource = gameObject.GetComponent<AudioSource>(); //Gets the audio source of the object for later use.
     }
 
     void Update () {
@@ -42,7 +45,7 @@ public GameObject E_Popup;
             audioSource.PlayOneShot(lootSound, 1);
 
             looted = true;
-            this.GetComponent<SpriteRenderer>().sprite = defSprite;
+            this.GetComponent<SpriteRenderer>().sprite = lootedSprite;
             StartCoroutine(LootCooldown()); // Starts looting cooldown
         }
 
@@ -52,6 +55,7 @@ public GameObject E_Popup;
         IEnumerator LootCooldown()
     {
         yield return new WaitForSeconds(cooldown);
+            GetComponent<SpriteRenderer>().sprite = defSprite;
         looted = false;
     }
 
