@@ -88,6 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8645159751845430034}
   - component: {fileID: 562433675}
+  - component: {fileID: 7500074515060419331}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -126,6 +127,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08968bdc432d78f4490860267185a0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7500074515060419331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645159751845430035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5eb6d355e9a63b4eaed6d2bc6026f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPointX: 0
+  SpawnPointY: 0
 --- !u!1 &8645159752319914653
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,8 +453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  startingPosition: {fileID: 11400000, guid: 616735c371789cd4ab447521abc418fb, type: 2}
   shiftPressed: 0
+  SpawnPointX: -4
+  SpawnPointY: 11
 --- !u!95 &8645159753283416583
 Animator:
   serializedVersion: 4

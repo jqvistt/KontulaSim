@@ -1,0 +1,1281 @@
+fileFormatVersion: 2
+guid: e2562aac4f6ed62448cd691c8f2ac83a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 80
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc9ee11f4a687408841b41267db0b4
+      internalID: 1544608213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 464
+        width: 80
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9360e0978ffcd8544adcd7f164b09403
+      internalID: -229630721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 80
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889cada40f3b7df459c27bc2d56a91f0
+      internalID: -690779372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 80
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbb4b7c4e617764395a797135b30c79
+      internalID: 211824563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_117
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c608a2f214ab0d4fa70d23c59e6b606
+      internalID: 432150700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63506a520a318a4bbd46e2d632fecdf
+      internalID: -1775773041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fa3316354f4f14884a6225a80c9781
+      internalID: -674534450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a980eaa7f0a5459bbfc3ad4e2785a
+      internalID: -1737079918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_141
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31fd6c90df66742ba18fc544345689
+      internalID: 1727709416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5ddc5d8ca137d4da7538214cf71d6a
+      internalID: -2020668012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 80
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63dbc85a54494d4bba965a4574df85a
+      internalID: 1925955315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_151
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 80
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169c31f995f172d488f3cf41ee90b752
+      internalID: 1574730450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_169
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 400
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6f053e042ea00409a555510d067cc3
+      internalID: 87453889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a895df9c2008f9741b25d17015ceec5f
+      internalID: -727541972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_171
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba8848f46ddcba408cb52627ede466d
+      internalID: 2015477326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1092cd3f6cd6dfc448e9aadae9ed5a89
+      internalID: 387571025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_185
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0991dbd2fc46d4a8842619ce5a65e4
+      internalID: -965536909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_186
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a122e998c366e4f43aadf9f9d371253e
+      internalID: -1452207860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_208
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10727adda02a5447adfa0954c2f5696
+      internalID: 1932202569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_210
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 80
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: -72}
+        - {x: 40, y: -72}
+        - {x: 40, y: -1}
+        - {x: -40, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2aaa31aa511bd429956bd26388a20e
+      internalID: -1325927922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_215
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 368
+        width: 80
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: -72}
+        - {x: 40, y: -72}
+        - {x: 39, y: -1}
+        - {x: -40, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6a8179b8b4e34db6704ed4f7ce645
+      internalID: 260852539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3e069aef3232a41b3d5293832cf025
+      internalID: -1448546528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_221
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2744caa96bcc454480f6ca8c17004af
+      internalID: 1561920542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_222
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f2aecd365b044e87a827e58e39150
+      internalID: -483462939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_223
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9fab844490d0b4b90e182c45e3eb71
+      internalID: 1886007616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_224
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6d1774ebc23ed4ca8b50802df16209
+      internalID: 231058806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b70c019e6f4fa84a83b173ac095b382
+      internalID: -2084126552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef1769db1436114cbc763fafe4058d9
+      internalID: -1447938788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_232
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755c3a04efee76848a14dd549599e87d
+      internalID: 433349948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_233
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118fc189d2d4228428ef7cde51fe777d
+      internalID: -709985121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3fa52b068017f41a93f1d6c966fa25
+      internalID: 1846278985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_248
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8005149e2bd354dbb170ad231f1701
+      internalID: 1894958983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_249
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79b70b2193476b4087b0ca193827fca
+      internalID: -991749365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_263
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c950c07231fec419ffa38ddfec1457
+      internalID: 1987555210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_264
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0aaf4573390a74ab4c053968e0358c
+      internalID: 266629468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_265
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd2f1f63e902347b248a9a452c8ac3
+      internalID: 539425847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_266
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cd42547aad78646b4a63a9c46294ab
+      internalID: -1162784849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_267
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5347c6ea046139b469fbc98ba8e661e3
+      internalID: -1862248539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_268
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d471d041992ed4dbd13e9724bbd1b2
+      internalID: 1471382229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_281
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf304e0e911b1748b6d7b7b4b748e01
+      internalID: 2100972256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Buildings_284
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 80
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c806cc88e04bc7e4f8cbdbfb17e2bdad
+      internalID: -228975920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheet_Buildings_181: -1249388586
+      SpriteSheet_Buildings_10: 1559030007
+      SpriteSheet_Buildings_19: 1705371421
+      SpriteSheet_Buildings_287: 1072020785
+      SpriteSheet_Buildings_125: -1263685997
+      SpriteSheet_Buildings_151: 1574730450
+      SpriteSheet_Buildings_275: -1246182074
+      SpriteSheet_Buildings_40: -1262648168
+      SpriteSheet_Buildings_203: -1734217846
+      SpriteSheet_Buildings_51: -2084046601
+      SpriteSheet_Buildings_142: -2020668012
+      SpriteSheet_Buildings_23: 152702937
+      SpriteSheet_Buildings_148: -143840488
+      SpriteSheet_Buildings_202: -961793233
+      SpriteSheet_Buildings_76: -539162018
+      SpriteSheet_Buildings_199: 1567188524
+      SpriteSheet_Buildings_214: -1721689476
+      SpriteSheet_Buildings_211: 1794373465
+      SpriteSheet_Buildings_200: -410021138
+      SpriteSheet_Buildings_169: 87453889
+      SpriteSheet_Buildings_183: 991689327
+      SpriteSheet_Buildings_184: 387571025
+      SpriteSheet_Buildings_77: 1642861817
+      SpriteSheet_Buildings_240: 1883818218
+      SpriteSheet_Buildings_225: -2084126552
+      SpriteSheet_Buildings_91: -38609035
+      SpriteSheet_Buildings_175: 1285425979
+      SpriteSheet_Buildings_68: -1258319323
+      SpriteSheet_Buildings_136: 214983140
+      SpriteSheet_Buildings_273: -1526811081
+      SpriteSheet_Buildings_239: 1176323333
+      SpriteSheet_Buildings_229: -1727341131
+      SpriteSheet_Buildings_188: -1031090652
+      SpriteSheet_Buildings_271: -2143574699
+      SpriteSheet_Buildings_140: -1737079918
+      SpriteSheet_Buildings_28: 77667876
+      SpriteSheet_Buildings_108: 392408777
+      SpriteSheet_Buildings_119: -674534450
+      SpriteSheet_Buildings_69: -229630721
+      SpriteSheet_Buildings_266: -1162784849
+      SpriteSheet_Buildings_22: -2057139675
+      SpriteSheet_Buildings_55: 2027433248
+      SpriteSheet_Buildings_197: 2033439951
+      SpriteSheet_Buildings_82: 1480067468
+      SpriteSheet_Buildings_92: -1084160579
+      SpriteSheet_Buildings_122: -700545283
+      SpriteSheet_Buildings_246: -1717579628
+      SpriteSheet_Buildings_146: 1925955315
+      SpriteSheet_Buildings_113: 2044939169
+      SpriteSheet_Buildings_262: 319950474
+      SpriteSheet_Buildings_78: -849378273
+      SpriteSheet_Buildings_104: 2019371892
+      SpriteSheet_Buildings_11: 539597734
+      SpriteSheet_Buildings_288: -1726048323
+      SpriteSheet_Buildings_167: 494650234
+      SpriteSheet_Buildings_133: 775164877
+      SpriteSheet_Buildings_276: 808175889
+      SpriteSheet_Buildings_20: 949538278
+      SpriteSheet_Buildings_170: -727541972
+      SpriteSheet_Buildings_63: 1531108842
+      SpriteSheet_Buildings_232: 433349948
+      SpriteSheet_Buildings_6: -241614213
+      SpriteSheet_Buildings_65: 240547596
+      SpriteSheet_Buildings_70: -101566787
+      SpriteSheet_Buildings_53: -81659946
+      SpriteSheet_Buildings_41: 1076531329
+      SpriteSheet_Buildings_255: -732657314
+      SpriteSheet_Buildings_80: 640303940
+      SpriteSheet_Buildings_62: 1551293234
+      SpriteSheet_Buildings_159: 941249110
+      SpriteSheet_Buildings_182: 1289365465
+      SpriteSheet_Buildings_88: 211824563
+      SpriteSheet_Buildings_16: 1279860468
+      SpriteSheet_Buildings_286: -88541697
+      SpriteSheet_Buildings_52: -763253742
+      SpriteSheet_Buildings_34: 1111072601
+      SpriteSheet_Buildings_156: 1434765857
+      SpriteSheet_Buildings_128: -194827452
+      SpriteSheet_Buildings_8: 1186522441
+      SpriteSheet_Buildings_194: 1899156141
+      SpriteSheet_Buildings_272: -1264161562
+      SpriteSheet_Buildings_130: -1393675331
+      SpriteSheet_Buildings_56: -492630108
+      SpriteSheet_Buildings_254: -1336456147
+      SpriteSheet_Buildings_253: 2074848640
+      SpriteSheet_Buildings_245: -1889408391
+      SpriteSheet_Buildings_163: 38382062
+      SpriteSheet_Buildings_14: 1551650274
+      SpriteSheet_Buildings_177: -1819151015
+      SpriteSheet_Buildings_54: 205660862
+      SpriteSheet_Buildings_24: -1830073160
+      SpriteSheet_Buildings_267: -1862248539
+      SpriteSheet_Buildings_144: -508546389
+      SpriteSheet_Buildings_57: 1551547540
+      SpriteSheet_Buildings_81: -1363977132
+      SpriteSheet_Buildings_58: 734269970
+      SpriteSheet_Buildings_102: 475343301
+      SpriteSheet_Buildings_191: -185077965
+      SpriteSheet_Buildings_161: -1402123171
+      SpriteSheet_Buildings_71: 1643626106
+      SpriteSheet_Buildings_7: 1585544689
+      SpriteSheet_Buildings_115: 402933390
+      SpriteSheet_Buildings_49: -965615784
+      SpriteSheet_Buildings_129: -1568172602
+      SpriteSheet_Buildings_90: 25722206
+      SpriteSheet_Buildings_106: -363347384
+      SpriteSheet_Buildings_249: -991749365
+      SpriteSheet_Buildings_192: 1398683889
+      SpriteSheet_Buildings_171: 2015477326
+      SpriteSheet_Buildings_145: 1653824813
+      SpriteSheet_Buildings_98: -419209971
+      SpriteSheet_Buildings_282: 99951927
+      SpriteSheet_Buildings_149: 715087065
+      SpriteSheet_Buildings_165: -1052097360
+      SpriteSheet_Buildings_193: 1712632588
+      SpriteSheet_Buildings_83: 633227008
+      SpriteSheet_Buildings_209: 774729236
+      SpriteSheet_Buildings_223: 1886007616
+      SpriteSheet_Buildings_210: -1325927922
+      SpriteSheet_Buildings_126: 947322271
+      SpriteSheet_Buildings_89: -1178605872
+      SpriteSheet_Buildings_116: -1504574778
+      SpriteSheet_Buildings_30: 1977406060
+      SpriteSheet_Buildings_143: -1161564756
+      SpriteSheet_Buildings_205: 1155708167
+      SpriteSheet_Buildings_107: 308422704
+      SpriteSheet_Buildings_157: 448271225
+      SpriteSheet_Buildings_123: -1324231177
+      SpriteSheet_Buildings_178: -863457150
+      SpriteSheet_Buildings_213: 49948661
+      SpriteSheet_Buildings_141: 1727709416
+      SpriteSheet_Buildings_241: 2053903752
+      SpriteSheet_Buildings_244: -1113918277
+      SpriteSheet_Buildings_259: 1321123092
+      SpriteSheet_Buildings_114: 1624182317
+      SpriteSheet_Buildings_206: 1446203930
+      SpriteSheet_Buildings_195: 1938164925
+      SpriteSheet_Buildings_222: -483462939
+      SpriteSheet_Buildings_97: 1597162382
+      SpriteSheet_Buildings_118: -1775773041
+      SpriteSheet_Buildings_74: 528992097
+      SpriteSheet_Buildings_1: 1773442445
+      SpriteSheet_Buildings_9: 86875794
+      SpriteSheet_Buildings_72: -1229332732
+      SpriteSheet_Buildings_33: 1526662569
+      SpriteSheet_Buildings_94: 314594080
+      SpriteSheet_Buildings_250: -91745002
+      SpriteSheet_Buildings_64: 1544608213
+      SpriteSheet_Buildings_96: -72210564
+      SpriteSheet_Buildings_138: -1113818018
+      SpriteSheet_Buildings_280: -729577387
+      SpriteSheet_Buildings_93: -66386781
+      SpriteSheet_Buildings_228: -1898297039
+      SpriteSheet_Buildings_12: 540765308
+      SpriteSheet_Buildings_252: -1496299354
+      SpriteSheet_Buildings_25: -87115293
+      SpriteSheet_Buildings_168: -656571470
+      SpriteSheet_Buildings_124: -1146859833
+      SpriteSheet_Buildings_265: 539425847
+      SpriteSheet_Buildings_166: -1917168187
+      SpriteSheet_Buildings_15: -1388692107
+      SpriteSheet_Buildings_101: 1083410401
+      SpriteSheet_Buildings_105: -12806159
+      SpriteSheet_Buildings_127: -1721993818
+      SpriteSheet_Buildings_29: 661127727
+      SpriteSheet_Buildings_43: 616115277
+      SpriteSheet_Buildings_131: -548717907
+      SpriteSheet_Buildings_111: -1726769202
+      SpriteSheet_Buildings_216: -1419132777
+      SpriteSheet_Buildings_86: -633468838
+      SpriteSheet_Buildings_95: -675357838
+      SpriteSheet_Buildings_155: -276771946
+      SpriteSheet_Buildings_219: -619635024
+      SpriteSheet_Buildings_224: 231058806
+      SpriteSheet_Buildings_274: -1559794140
+      SpriteSheet_Buildings_277: -1202991114
+      SpriteSheet_Buildings_84: -690779372
+      SpriteSheet_Buildings_147: 1237562671
+      SpriteSheet_Buildings_13: 695599121
+      SpriteSheet_Buildings_132: 1514288804
+      SpriteSheet_Buildings_79: 402433608
+      SpriteSheet_Buildings_150: -583023639
+      SpriteSheet_Buildings_231: -1447938788
+      SpriteSheet_Buildings_66: 1131993896
+      SpriteSheet_Buildings_172: -1813127504
+      SpriteSheet_Buildings_201: 837792864
+      SpriteSheet_Buildings_154: -1694059989
+      SpriteSheet_Buildings_32: 1231351566
+      SpriteSheet_Buildings_26: 1386326251
+      SpriteSheet_Buildings_17: 1540125320
+      SpriteSheet_Buildings_233: -709985121
+      SpriteSheet_Buildings_230: 1128491584
+      SpriteSheet_Buildings_258: 1161111306
+      SpriteSheet_Buildings_186: -1452207860
+      SpriteSheet_Buildings_218: 1324110950
+      SpriteSheet_Buildings_268: 1471382229
+      SpriteSheet_Buildings_100: 2001282425
+      SpriteSheet_Buildings_110: 2103086902
+      SpriteSheet_Buildings_198: -2049522844
+      SpriteSheet_Buildings_283: 2083781140
+      SpriteSheet_Buildings_153: -2107073651
+      SpriteSheet_Buildings_117: 432150700
+      SpriteSheet_Buildings_208: 1932202569
+      SpriteSheet_Buildings_207: -1574012787
+      SpriteSheet_Buildings_60: -690256794
+      SpriteSheet_Buildings_35: -729678465
+      SpriteSheet_Buildings_36: 1917460077
+      SpriteSheet_Buildings_39: -781903194
+      SpriteSheet_Buildings_38: -132033893
+      SpriteSheet_Buildings_212: 519154550
+      SpriteSheet_Buildings_215: 260852539
+      SpriteSheet_Buildings_227: 502518326
+      SpriteSheet_Buildings_120: 1483731073
+      SpriteSheet_Buildings_243: -1539202148
+      SpriteSheet_Buildings_281: 2100972256
+      SpriteSheet_Buildings_152: 1364466091
+      SpriteSheet_Buildings_50: -1672258131
+      SpriteSheet_Buildings_5: 1601952579
+      SpriteSheet_Buildings_73: 1799550332
+      SpriteSheet_Buildings_162: 1908957187
+      SpriteSheet_Buildings_31: -759233418
+      SpriteSheet_Buildings_134: 1924454047
+      SpriteSheet_Buildings_189: 1824912007
+      SpriteSheet_Buildings_263: 1987555210
+      SpriteSheet_Buildings_190: -1486388202
+      SpriteSheet_Buildings_217: 456468282
+      SpriteSheet_Buildings_260: 1931899277
+      SpriteSheet_Buildings_173: -1469466398
+      SpriteSheet_Buildings_37: -1448152269
+      SpriteSheet_Buildings_47: -245227610
+      SpriteSheet_Buildings_44: -1552219852
+      SpriteSheet_Buildings_2: -698992825
+      SpriteSheet_Buildings_247: 1846278985
+      SpriteSheet_Buildings_3: -1250262124
+      SpriteSheet_Buildings_99: 2093994198
+      SpriteSheet_Buildings_174: 1583734996
+      SpriteSheet_Buildings_46: 1729394090
+      SpriteSheet_Buildings_185: -965536909
+      SpriteSheet_Buildings_238: -575517027
+      SpriteSheet_Buildings_112: -388647229
+      SpriteSheet_Buildings_256: 1752086419
+      SpriteSheet_Buildings_257: 1613404017
+      SpriteSheet_Buildings_137: -575846505
+      SpriteSheet_Buildings_42: -1212312423
+      SpriteSheet_Buildings_4: 1806060800
+      SpriteSheet_Buildings_48: 1744827657
+      SpriteSheet_Buildings_220: -1448546528
+      SpriteSheet_Buildings_121: -649403818
+      SpriteSheet_Buildings_237: 359051473
+      SpriteSheet_Buildings_109: 1958936204
+      SpriteSheet_Buildings_261: 1980672509
+      SpriteSheet_Buildings_248: 1894958983
+      SpriteSheet_Buildings_279: 1527515116
+      SpriteSheet_Buildings_285: 883415426
+      SpriteSheet_Buildings_158: 1504768418
+      SpriteSheet_Buildings_176: 1190655849
+      SpriteSheet_Buildings_235: 637514756
+      SpriteSheet_Buildings_284: -228975920
+      SpriteSheet_Buildings_139: -1699560201
+      SpriteSheet_Buildings_61: 2031769415
+      SpriteSheet_Buildings_242: 1384320052
+      SpriteSheet_Buildings_180: -497018175
+      SpriteSheet_Buildings_135: 427093595
+      SpriteSheet_Buildings_226: -679022154
+      SpriteSheet_Buildings_251: 719257532
+      SpriteSheet_Buildings_269: 1545910025
+      SpriteSheet_Buildings_204: 975306063
+      SpriteSheet_Buildings_264: 266629468
+      SpriteSheet_Buildings_164: -1928472094
+      SpriteSheet_Buildings_278: 327995401
+      SpriteSheet_Buildings_18: -763216076
+      SpriteSheet_Buildings_45: -691960795
+      SpriteSheet_Buildings_160: -1113086454
+      SpriteSheet_Buildings_27: 682707923
+      SpriteSheet_Buildings_75: -439848135
+      SpriteSheet_Buildings_67: -1331529878
+      SpriteSheet_Buildings_87: -848782704
+      SpriteSheet_Buildings_236: -1431409978
+      SpriteSheet_Buildings_234: 520864531
+      SpriteSheet_Buildings_103: -1650546747
+      SpriteSheet_Buildings_85: -1144202820
+      SpriteSheet_Buildings_221: 1561920542
+      SpriteSheet_Buildings_59: -2079380818
+      SpriteSheet_Buildings_0: -2882497
+      SpriteSheet_Buildings_21: 1411406564
+      SpriteSheet_Buildings_196: 401791236
+      SpriteSheet_Buildings_187: -294988081
+      SpriteSheet_Buildings_270: -874861962
+      SpriteSheet_Buildings_179: -464156607
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

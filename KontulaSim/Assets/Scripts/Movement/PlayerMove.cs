@@ -15,15 +15,11 @@ public class PlayerMove : MonoBehaviour
     private Animator animator;
     public bool shiftPressed = false;
 
+
     private void Awake(){
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-
-    }
-
-    private void Start()
-    {
 
     }
 

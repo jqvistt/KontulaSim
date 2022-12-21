@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: alepa
+  m_Name: house_28
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 34595d05da6e8f44588cb0982dfc7254, type: 3}
+  m_Sprite: {fileID: -1019034922, guid: 23800759bf979cd48b10cca3a90957f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
