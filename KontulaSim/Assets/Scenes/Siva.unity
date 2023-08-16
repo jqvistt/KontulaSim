@@ -139,6 +139,14 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1625460237617328978, guid: 38199367f9aef784e907b34656abb39b, type: 3}
+      propertyPath: spawnPos.x
+      value: 12.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1625460237617328978, guid: 38199367f9aef784e907b34656abb39b, type: 3}
+      propertyPath: spawnPos.y
+      value: 10.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1625460237617328978, guid: 38199367f9aef784e907b34656abb39b, type: 3}
       propertyPath: sceneToLoad
       value: Main_Outside
       objectReference: {fileID: 0}

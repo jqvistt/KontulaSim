@@ -7,18 +7,47 @@ public class NPCdialogue : MonoBehaviour
     public GameObject dialogueUI; // reference to the dialogue UI object
     public GameObject interactPopupSprite;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public bool inReach = false;
+
+    private void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
+        inReach = false;
+        interactPopupSprite.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
         {
-            StartDialogue();
-            ShowInteractPopup();
+            inReach = true;
+            Debug.Log("Player in reach!");
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.tag == "Player")
+        {
+            inReach = false;
+            Debug.Log("Player out of reach!");
+        }
+    }
+
+    private void Update()
+    {
+        if (!inReach)
+        {
+            interactPopupSprite.SetActive(false);
+        } else if (inReach)
+        {
+            interactPopupSprite.SetActive(true);
+        }
+
+        if (inReach && Input.GetKeyDown(KeyCode.E))
+        {
+            StartDialogue();
+        }
+        else if (!inReach)
         {
             EndDialogue();
             HideInteractPopup();
@@ -46,9 +75,9 @@ public class NPCdialogue : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                dialogueUI.SetActive(true); // show the dialogue UI
+                dialogueUI.SetActive(true);
                 HideInteractPopup();
-                break;
+                yield break; // End the coroutine
             }
             yield return null;
         }

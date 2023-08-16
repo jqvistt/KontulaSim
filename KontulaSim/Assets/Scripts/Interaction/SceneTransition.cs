@@ -8,9 +8,14 @@ public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
     private bool inReach = false;
-    public Vector2 playerPosition;
 
-    
+    public Vector2 spawnPos;
+    public GameObject Player;
+
+    private void Start()
+    {
+         
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,9 +37,12 @@ public class SceneTransition : MonoBehaviour
 
     private void Update()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
+
         if (inReach && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(sceneToLoad);
+            Player.transform.position = spawnPos;
         }
     }
 
