@@ -8,38 +8,48 @@ using UnityEngine.InputSystem;
 public class PlayerMove : MonoBehaviour
 {
 
-    [SerializeField]private int speed = 2;
+    [SerializeField] private int speed = 2;
+    [SerializeField] private float dashSpeed = 20000;
+    [SerializeField] private float dashDuration = 0.5f;
 
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
+    public AudioClip stepSound;
+    private AudioSource audioSource;
     public bool shiftPressed = false;
+    private bool isDashing = false;
+    private float dashTimer = 0;
+
+    public float minPitch = 0.9f;
+    public float maxPitch = 1.1f;
 
 
-    private void Awake(){
+    private void Awake()
+    {
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
-    private void OnMovement(InputValue value){
+    private void OnMovement(InputValue value)
+    {
 
         movement = value.Get<Vector2>();
 
-    if(movement.x != 0 || movement.y != 0)
-    {
-        animator.SetFloat("X", movement.x);
-        animator.SetFloat("Y", movement.y);
+        if (movement.x != 0 || movement.y != 0)
+        {
+            animator.SetFloat("X", movement.x);
+            animator.SetFloat("Y", movement.y);
 
-        animator.SetBool("IsWalking", true);
-    }
-
-    else
-    {
-        animator.SetBool("IsWalking", false);
-    }
-
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
     }
 
     private void Update()
@@ -48,40 +58,55 @@ public class PlayerMove : MonoBehaviour
         {
             shiftPressed = true;
         }
-        else shiftPressed = false;
+        else
+        {
+            shiftPressed = false;
+        }
 
         if (shiftPressed)
         {
             speed = 3;
             animator.speed = 1.5f;
         }
-
-        if (!shiftPressed)
+        else
         {
             speed = 2;
             animator.speed = 1;
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && !isDashing)
+        {
+            isDashing = true;
+            dashTimer = dashDuration;
+        }
+
+        if (isDashing)
+        {
+            rb.velocity = movement.normalized * dashSpeed;
+            dashTimer -= Time.deltaTime;
+
+            if (dashTimer <= 0)
+            {
+                isDashing = false;
+                rb.velocity = Vector2.zero;
+            }
+        }
     }
 
-    private void FixedUpdate(){
+    private void FixedUpdate()
+    {
 
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
-        /*if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (!isDashing)
         {
-            Debug.Log("Shift Pressed");
-
-            speed = 3;
-            animator.speed = 1.5f;
-
+            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            Debug.Log("Shift Released!");
 
-            speed = 2;
-            animator.speed = 1f;
-        }*/
+    }
 
+    private void PlayStepSound()
+    {
+        float randomPitch = Random.Range(minPitch, maxPitch);
+        audioSource.pitch = randomPitch;
+        audioSource.PlayOneShot(stepSound);
     }
 }

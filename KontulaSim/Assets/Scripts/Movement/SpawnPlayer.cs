@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class SpawnPlayer : MonoBehaviour
 {
-    public Vector2 SpawnPoint;
-    
-    void Awake()
+    void Start()
     {
-        transform.position = SpawnPoint;
+        transform.position = SpawnPoint.instance.GetSpawnPosition();
     }
 
 }

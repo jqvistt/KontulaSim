@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
-    public int enterPosition;
     private bool inReach = false;
     public Vector2 playerPosition;
 
@@ -41,7 +40,4 @@ public class SceneTransition : MonoBehaviour
 
 
 }
-
-// if previous scene = "x",
-// set player transform &/ spawn pos "x, y"
 
