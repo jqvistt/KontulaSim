@@ -24,6 +24,8 @@ public class PlayerMove : MonoBehaviour
     public float minPitch = 0.9f;
     public float maxPitch = 1.1f;
 
+    [SerializeField] private bool controlsDisabled = false;
+
 
     private void Awake()
     {
@@ -36,6 +38,7 @@ public class PlayerMove : MonoBehaviour
 
     private void OnMovement(InputValue value)
     {
+        if (controlsDisabled) return;
 
         movement = value.Get<Vector2>();
 
@@ -54,6 +57,17 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            controlsDisabled = true;
+            animator.SetTrigger("isInjecting");
+        }
+
+        /*if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Player_Inject"))
+        {
+            controlsDisabled = false;
+        }*/
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -96,6 +110,7 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (controlsDisabled) return;
 
         if (!isDashing)
         {
