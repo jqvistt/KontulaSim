@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCdialogue : MonoBehaviour
 {
-    public GameObject dialogueUI; // reference to the dialogue UI object
+    public GameObject dialogueUI;
     public GameObject interactPopupSprite;
 
     public bool inReach = false;
@@ -13,6 +13,8 @@ public class NPCdialogue : MonoBehaviour
     {
         inReach = false;
         interactPopupSprite.SetActive(false);
+
+        dialogueUI = DialogueUIManager.Instance.dialogueUI;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -85,7 +87,10 @@ public class NPCdialogue : MonoBehaviour
 
     public void EndDialogue()
     {
-        dialogueUI.SetActive(false); // hide the dialogue UI
+        if (dialogueUI != null)
+        {
+            dialogueUI.SetActive(false); // hide the dialogue UI
+        }
     }
 
     public void UpdateDialogue(int responseIndex)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using System;
 
 public class SceneTransition : MonoBehaviour
 {
@@ -37,6 +38,13 @@ public class SceneTransition : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKey(KeyCode.Q))
+        {
+            Debug.Log("RELOADING SCENE!");
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+
         Player = GameObject.FindGameObjectWithTag("Player");
 
         if (inReach && Input.GetKeyDown(KeyCode.E))

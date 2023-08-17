@@ -54,6 +54,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             shiftPressed = true;
