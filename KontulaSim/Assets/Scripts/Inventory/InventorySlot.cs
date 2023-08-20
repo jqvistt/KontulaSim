@@ -5,8 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class InventorySlot
 {
-    [SerializeField] private InventoryItemData itemData;
-    [SerializeField] private int stackSize;
+    [SerializeField] public InventoryItemData itemData;
+    [SerializeField] public int stackSize;
 
     public InventoryItemData ItemData => itemData;
     public int StackSize => stackSize;
@@ -80,6 +80,19 @@ public class InventorySlot
         splitStack= new InventorySlot(itemData, halfStack);
         return true;
 
+    }
+
+    public void DecreaseStackSize()
+    {
+        if (stackSize > 0)
+        {
+            stackSize--;
+
+            if (stackSize <= 0)
+            {
+                // Perform necessary actions when stack size becomes zero or less
+            }
+        }
     }
  
 

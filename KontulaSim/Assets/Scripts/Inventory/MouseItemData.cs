@@ -12,6 +12,7 @@ public class MouseItemData : MonoBehaviour
     public Image ItemSprite;
     public TextMeshProUGUI ItemCount;
     public InventorySlot AssignedInventorySlot;
+    public PlayerMove playerMove;
 
     private void Awake()
     {
@@ -29,19 +30,33 @@ public class MouseItemData : MonoBehaviour
 
     private void Update()
     {
-        if(AssignedInventorySlot.ItemData != null)
+        if (AssignedInventorySlot.ItemData != null)
         {
+            /*  Debug.Log("Cursor is holding: " + AssignedInventorySlot.ItemData.name); // Debug log the held object's name */
+
             transform.position = Input.mousePosition;
 
-            if(Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject())
+            if (Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject() && !playerMove.isCursorOverTrigger)
             {
                 ClearSlot();
             }
         }
+
+        // Debug.Log statements to check values
+        //Debug.Log("ItemCount.text: " + ItemCount.text);
+        //Debug.Log("AssignedInventorySlot.StackSize: " + AssignedInventorySlot.StackSize);
+
+        if (AssignedInventorySlot.StackSize >= 1)
+        {
+            ItemCount.text = AssignedInventorySlot.StackSize.ToString();
+        }
+        else return;
+        
     }
 
     public void ClearSlot()
     {
+
         AssignedInventorySlot.ClearSlot();
         ItemCount.text = "";
         ItemSprite.color = Color.clear;
@@ -55,6 +70,23 @@ public class MouseItemData : MonoBehaviour
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
         return results.Count > 0;
+    }
+
+    public string GetAssignedItemName()
+    {
+        if (AssignedInventorySlot.ItemData != null)
+        {
+            return AssignedInventorySlot.ItemData.name;
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
+
+    private void UpdateItemCount()
+    {
+        ItemCount.text = AssignedInventorySlot.StackSize.ToString();
     }
 
 }

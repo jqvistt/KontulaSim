@@ -12,11 +12,24 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float dashSpeed = 20000;
     [SerializeField] private float dashDuration = 0.5f;
 
+    [SerializeField] private GameObject triggerArea;
+    [SerializeField] private GameObject injectHover;
+    [SerializeField] private GameObject playerHotbar;
+
+    public Camera mainCam;
+
+    public bool isCursorOverTrigger = false;
+
+    public bool isConsuming = false;
+
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
     public AudioClip stepSound;
     private AudioSource audioSource;
+
+    public MouseItemData mouseItemData;
+
     public bool shiftPressed = false;
     private bool isDashing = false;
     private float dashTimer = 0;
@@ -58,18 +71,57 @@ public class PlayerMove : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetMouseButtonDown(1))
+        //Debug.Log("Current Animation: " + GetCurrentAnimationName());
+
+        if (mouseItemData != null)
         {
-            controlsDisabled = true;
-            animator.SetTrigger("isInjecting");
+            string itemName = mouseItemData.GetAssignedItemName();
+            if (!string.IsNullOrEmpty(itemName))
+            {
+                if (itemName == "needle_data")
+                {
+                    // Check if the cursor is over the trigger area
+                    if (isCursorOverTrigger)
+                    {
+                        injectHover.SetActive(true);
+                        mouseItemData.ItemSprite.enabled = false;
+                        mouseItemData.ItemCount.enabled = false;
+                    }
+                    else
+                    {
+                        injectHover.SetActive(false);
+                        mouseItemData.ItemSprite.enabled = true;
+                        mouseItemData.ItemCount.enabled = true; 
+                    }
+
+                    // Check if the right mouse button is pressed
+                    if (Input.GetMouseButtonDown(1) && isCursorOverTrigger || Input.GetMouseButtonDown(0) && isCursorOverTrigger)
+                    {
+                        UseItemFromMouseItemData();
+                        controlsDisabled = true;
+                        animator.SetTrigger("isInjecting");
+                
+                        injectHover.SetActive(false); // Disable the hover
+                    }
+                }
+            }
         }
 
-        /*if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Player_Inject"))
-        {
-            controlsDisabled = false;
-        }*/
+        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (hit.collider != null && hit.collider.gameObject == triggerArea)
+        {
+            // Cursor is hovering over the trigger area
+            isCursorOverTrigger = true;
+        }
+        else
+        {
+            // Cursor is not over the trigger area
+            isCursorOverTrigger = false;
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) && !controlsDisabled)
         {
             shiftPressed = true;
         }
@@ -108,6 +160,15 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    private string GetCurrentAnimationName()
+    {
+        if (animator.GetCurrentAnimatorClipInfo(0).Length > 0)
+        {
+            return animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        }
+        return "No Animation";
+    }
+
     private void FixedUpdate()
     {
         if (controlsDisabled) return;
@@ -118,11 +179,50 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
+    private void UseItemFromMouseItemData()
+    {
+        // Assuming that you have a way to reference the InventorySlot of the mouse
+        InventorySlot mouseInventorySlot = mouseItemData.AssignedInventorySlot;
+
+        if (mouseInventorySlot.ItemData != null)
+        {
+            if (mouseInventorySlot.StackSize > 0)
+            {
+                mouseInventorySlot.RemoveFromStack(1); // Decrease stack size
+
+                if (mouseInventorySlot.StackSize <= 0)
+                {
+                    mouseItemData.ClearSlot(); // Clear the slot if stack size becomes zero or less
+                }
+            }
+        }
+    }
 
     private void PlayStepSound()
     {
         float randomPitch = Random.Range(minPitch, maxPitch);
         audioSource.pitch = randomPitch;
         audioSource.PlayOneShot(stepSound);
+    }
+
+    public void OnInjectAnimationStart()
+    {
+        mainCam.orthographicSize = 3;
+        playerHotbar.SetActive(false);
+        controlsDisabled = true; // Disable controls when the animation starts
+        injectHover.SetActive(false);
+        Input.ResetInputAxes();
+        isConsuming = true;
+    }
+
+    public void OnInjectAnimationEnd()
+    {
+        mainCam.orthographicSize = 6;
+        playerHotbar.SetActive(true);
+        controlsDisabled = false; // Disable controls when the animation starts
+        mouseItemData.ItemSprite.enabled = true;
+        mouseItemData.ItemCount.enabled = true;
+        Input.ResetInputAxes();
+        isConsuming = false;
     }
 }
