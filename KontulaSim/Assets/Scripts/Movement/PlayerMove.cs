@@ -26,6 +26,9 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     public AudioClip stepSound;
+    public AudioClip needleAudio;
+    public AudioClip blinkSound;
+    public AudioClip tripSound;
     private AudioSource audioSource;
 
     public MouseItemData mouseItemData;
@@ -203,6 +206,24 @@ public class PlayerMove : MonoBehaviour
         float randomPitch = Random.Range(minPitch, maxPitch);
         audioSource.pitch = randomPitch;
         audioSource.PlayOneShot(stepSound);
+    }
+
+    private void PlayNeedleSound()
+    {
+        audioSource.PlayOneShot(needleAudio);
+        audioSource.pitch = 1;
+    }
+
+    private void PlayBlinkSound()
+    {
+        audioSource.PlayOneShot(blinkSound);
+        audioSource.pitch = 1;
+    }
+
+    private void PlayTripSound()
+    {
+        audioSource.PlayOneShot(tripSound);
+        audioSource.pitch = 1;
     }
 
     public void OnInjectAnimationStart()
