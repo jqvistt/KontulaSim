@@ -589,8 +589,15 @@ MonoBehaviour:
   dashSpeed: 20000
   dashDuration: 0.5
   triggerArea: {fileID: 1647307555176804450}
+  injectHover: {fileID: 0}
+  playerHotbar: {fileID: 0}
+  mainCam: {fileID: 0}
   isCursorOverTrigger: 0
+  isConsuming: 0
   stepSound: {fileID: 8300000, guid: 83ea0b1f36419004a9706357a96987cf, type: 3}
+  needleAudio: {fileID: 0}
+  blinkSound: {fileID: 0}
+  tripSound: {fileID: 0}
   mouseItemData: {fileID: 8645159752128125869}
   shiftPressed: 0
   minPitch: 0.7

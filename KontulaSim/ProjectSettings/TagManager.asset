@@ -43,18 +43,21 @@ TagManager:
   - name: Ground Deep
     uniqueID: 1231928111
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Ground
+    uniqueID: 2966164981
     locked: 0
-  - name: Characters
+  - name: Shadows
     uniqueID: 2909839493
     locked: 0
-  - name: Objects
-    uniqueID: 2966164981
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Dropped
     uniqueID: 1801487889
     locked: 0
   - name: Roofs
     uniqueID: 583956243
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 4228927373
     locked: 0
