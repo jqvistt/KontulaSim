@@ -1,20 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShadowScript : MonoBehaviour
 {
+    private SpriteRenderer spriteRenderer;
+    private SpriteRenderer parentSpriteRenderer;
 
-    private GameObject Parent;
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        // Get the SpriteRenderer component on the current GameObject
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Get the SpriteRenderer component on the parent GameObject
+        parentSpriteRenderer = transform.parent.GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer == null)
+        {
+            Debug.LogError("No SpriteRenderer found on this GameObject.");
+            enabled = false; // Disable the script if there is no SpriteRenderer.
+        }
+
+        if (parentSpriteRenderer == null)
+        {
+            Debug.LogError("No SpriteRenderer found on the parent GameObject.");
+            enabled = false; // Disable the script if there is no SpriteRenderer on the parent.
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
-        
+        // Sync the sprite of the current GameObject with the parent's sprite
+        spriteRenderer.sprite = parentSpriteRenderer.sprite;
     }
 }

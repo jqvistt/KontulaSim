@@ -7,11 +7,11 @@ Shader "UnityCommunity/Sprites/SpriteDropShadow"
         [MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
         _ShadowColor ("Shadow", Color) = (0,0,0,1)
         _ShadowOffset ("ShadowOffset", Vector) = (0,-0.1,0,0)
-        _SkewX ("Skew X", Range(-1, 1)) = 0
+        _SkewX ("Skew X", Range(-1000, 1000)) = 0
         _SkewY ("Skew Y", Range(-1, 1)) = 0
         _SkewZ ("Skew Z", Range(-1, 1)) = 0
         _ScaleWidth ("Scale Width", Range(0.1, 10)) = 1
-        _ScaleHeight ("Scale Height", Range(0.1, 10)) = 1
+        _ScaleHeight ("Scale Height", Range(0.2, 1)) = 1
     }
 
     SubShader
