@@ -1,0 +1,4743 @@
+fileFormatVersion: 2
+guid: 6439fc0e698bd4243acd64fa2d510886
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf87ac2f5dc104aa21f435981c14d2
+      internalID: -375772024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a284189e6e395024c810100b10c4ce71
+      internalID: -597436903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa957f698dc726749832b4975b619c92
+      internalID: 1914007115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb7ee855c63604c8af02d35fe6626b
+      internalID: -935395459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7d9688877575b43bf4e0fbbdb8ed27
+      internalID: 1024502179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636e4ae4d0c7404597f9d1da778cf10
+      internalID: 737813884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c2df02b882d7842b1c95292f150f97
+      internalID: 483477247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476cfc0b72f5ef408c7fc55f9ca09ca
+      internalID: -1781791669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796291b78bfd5bc49a7f7e2a8814b9f9
+      internalID: 1510704974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f31cc20dc6d4374b85a2b566b0ccd73
+      internalID: 1754859952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ca25522e610447984bc97acb51018
+      internalID: 736985825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62476d25db4cef4f8442067182f3763
+      internalID: -1590983223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6614d0f2a81808c40952aa91cceaaedb
+      internalID: -1507123656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7b3b018d46ec344ba16efca5e7519e
+      internalID: -950858880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1741a5df61ed7094280ea07467b58947
+      internalID: 805973951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcddc5e822717574dae6fc4ed4e29064
+      internalID: -1007128935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc4e726df8647b4f959457b151da7ac
+      internalID: 997744621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936eab4a8e16cb4097bf7ae2578441f
+      internalID: 1455579892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db13101c5f505764b9f6372126d40539
+      internalID: 2052634585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a967cd9bece24a83cd3b986526f56
+      internalID: -1985980618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df71b3d0fa5a34a855f5eeb71b463b
+      internalID: -553265307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_21
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85db3a9c5b0ed4449fbe1f3d51a25bc
+      internalID: 767644156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fffe52014deba459a08e8a5e6dbb24
+      internalID: -446339095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9399689698a437b4d9daccf25dea0f1e
+      internalID: -86464072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e9a9409a1b8c44aa240243719c18f7
+      internalID: -1898505559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82845c2d4168b3048b511baa7fb18932
+      internalID: -1726425805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5faa11c3b251bd4e8145d047bc0b752
+      internalID: 5979598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425336b4598a0fe46b78d5e4082939a6
+      internalID: -706472129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_28
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93114dc76db1077438c3a1d7326c9c13
+      internalID: 1392135207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c25099a6b47804aaa53d77779c76f1
+      internalID: 1681289605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec61dd257eb31f498072dfad6172437
+      internalID: 1763918909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f95456d32f58474b9b9685c777c0b96
+      internalID: 1348100685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2578841e67bb10447afc0f8e24eb352a
+      internalID: 524618573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa5073a0faaf3443aecef64803a3ce5
+      internalID: 996888886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780ecd6231a59c6408437627e56a4c75
+      internalID: 527173206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f04fc77b297d546b4456417a2e1a0d
+      internalID: 1392083601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_36
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105cbd975d89c294681973bc23716709
+      internalID: -676671532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8328b7c3e470c4496c8363863a2a0a
+      internalID: 793905126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be031bf0333008647b9493212b093f88
+      internalID: -2058444435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_39
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21385dd9199600846896b176dc66ec1c
+      internalID: 1994713768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_40
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb52a35fa30fe049bd942b8b4bf748c
+      internalID: 60952250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_41
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4123d7990611f4f8d18c7c2ab78447
+      internalID: -1059914209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c39ed73101033f419c752d9f0eea780
+      internalID: 1889349692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_43
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223494d1d8c43324f8f81eca1b568245
+      internalID: -1025091771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_44
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427fdcaaf5bc8ac41836ae84274b7959
+      internalID: -777237308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2006adf464f43924c974d33dd21d6adf
+      internalID: -1224236451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf877e830e90574eb12402a32e1d6fa
+      internalID: 1435887725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082237ceaa6a6246b4c58c07bb3d267
+      internalID: 417980752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84f1044284f1e46bb0b7c0197eb012
+      internalID: -613527432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf7b97e38d83e04ebfa1e8fb4a7dd8e
+      internalID: -1427243691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_50
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15562585874b9b4db70aebf224ed150
+      internalID: 949963772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_51
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bde4e0d5560224780f2d4534db3f2b
+      internalID: 100577042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_52
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c770f19514777da4da76ea9457ea4a6e
+      internalID: -1698235967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_53
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d8f240a2ef82b4e87b5067a314c2d7
+      internalID: -515342495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_54
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68bed5ebf82580419a6fb0a06471c06
+      internalID: 428166513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_55
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd634dede84f6c44ea6d2d768e1bb0b4
+      internalID: -1150460983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_56
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 441
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205386beae534604789cef55284dc08e
+      internalID: 1760466761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a538bb5aff1044086a8e923c535dfb
+      internalID: 691280185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1273be1c613e64e8fc84637bcbbb16
+      internalID: -1861318402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01599d056f0e32e47aedeb789db5a268
+      internalID: 229258732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61484018ed6788845993c757a3952253
+      internalID: 1124428523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7951caaab8b19d842bd4623505d0e95c
+      internalID: -317391302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_62
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632ffa501365edb449cc0c9a6334838b
+      internalID: 130033117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_63
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a68877f7b070548a436e56c485d9f0
+      internalID: -249062024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_64
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa70763e8c73f4408996e056712c423
+      internalID: 2079319586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_65
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b9898d27e617040a51f550f282327b
+      internalID: -1134857623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_66
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476f382f838e834fa567d9b44ed3803
+      internalID: -1089534984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_67
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea2d6c4def53fd4193cc3cf49284e7e
+      internalID: 1708445999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9d138914ef44849b7843de8be70657
+      internalID: -349152783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6f498250e2b4e4db7992f964f9807d
+      internalID: 1390532310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20657824871b2f5419bdef3b782033c5
+      internalID: 344814440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_71
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c16b4a83be17184aa98e4043f96d8aa
+      internalID: -229129371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_72
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5216a600b018fb84fbcd818e73aa273e
+      internalID: 488445838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_73
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdd72a5b8c355646b2f15a5240b9712
+      internalID: -2092921901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_74
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b15039d54154349ada81c1bc3dc60f
+      internalID: -1905884041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_75
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b7d8803aff564ca6081cae124a953
+      internalID: -1854548413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_76
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b214c9ea4e4ad294fb1a8769e225fc09
+      internalID: 755162142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_77
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14e542f9d1913f458e5a7656f73831d
+      internalID: 1308634681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_78
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071a8df6a16defd459d09dc86d3b0bb0
+      internalID: -635823971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_79
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e575429bba0135e4c811770fe6943cc7
+      internalID: 953105199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_80
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dab9f635aeefbb46a23f9aaae4017eb
+      internalID: -1630945845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_81
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31052deab46d0e147bd5330a7c0b45c9
+      internalID: 2115558968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_82
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd784746d0768c429b3c7535ebace09
+      internalID: -1665460424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_83
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 405
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e319b6d7eb03d449b44130f06406da1
+      internalID: 1548530661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a73049558dabad43ab3056393b49db2
+      internalID: -1840675858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab2d2040b14344a9efdc13e9c52800
+      internalID: -609064901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_86
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda87461836c23c48b014af463c6c811
+      internalID: 365684592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_87
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e324c00a335c6d34faa3d0d90a407976
+      internalID: -2023427706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_88
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19c5b549571f8c4c976a68084bd755c
+      internalID: 1369172878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642902c9dc2245e4c988aabe28ea69e5
+      internalID: -349959363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_90
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf376fb9d159a4db888f95a9990dcb
+      internalID: 221381543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_91
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c843e38046c0d534eb22308f657ff41f
+      internalID: -1078287048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_92
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b3073f355db246a7f5987c529ac8e
+      internalID: -852772249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_93
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa1296c641746546a868bd7755ff570
+      internalID: 1013229697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_94
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2665bbd21925d5c488bafd67127a291e
+      internalID: -1720841830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_95
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a67569917eaa64cb93052caca8cb0a
+      internalID: -733095963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_96
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635e35ec586ce8d46a9338a747990ae8
+      internalID: 1036936689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_97
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77e8e135593e344da31f2b02dff0472
+      internalID: 1695509196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_98
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7cc724ff160604bb3f1c73c339c72f
+      internalID: 1753959745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_99
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 387
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6da0cf3175bd034797b54c50ff8ed4a
+      internalID: 805666380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b1be8a71ecda64a9f38d7043285deb
+      internalID: -442747899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_101
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6012d4e1d67dc2341853d42eed4d3529
+      internalID: 7374288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_102
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c1c12c31284a4983209bbcff49373
+      internalID: 975000589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc705e3dfe15242b4ca7fa6ae2dc8f
+      internalID: -1802643037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_104
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b23683839cedff499bebdd017b8c2b0
+      internalID: -864447310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_105
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c47c4b975148f146903aab176d7ef9f
+      internalID: -1140061403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_106
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908cda905f1b22443a82a91874a64559
+      internalID: 1758560896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_107
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed95437cefef4d4899c31022763555a
+      internalID: -790730075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39f928bd3ec9b458885fda6a2cc6ff
+      internalID: -842190565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_109
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d92133f948f9f4bbd845df99623964
+      internalID: 1819329919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_110
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba3b0004658354a9061e150dd1dbff
+      internalID: 62374249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_111
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878a3de471f88124fb47b8fc6455bd59
+      internalID: 975257482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_112
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 369
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c4cfb70f9f6942b301d0335685e4a
+      internalID: 1845102270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_113
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47136179ff98642be2d205e8b77f3a
+      internalID: -1620712673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83ef88ffc57aa54299786db8e7878cd
+      internalID: 1267322199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_115
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904779ada12b04848bc1090d46c5eae8
+      internalID: -831490373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_116
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4130bf6658dc8644912834f9524d7e0
+      internalID: 1372524504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_117
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e146b1d45644248aa6dd5dd7688ac7
+      internalID: 1784117867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_118
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe057de9e5e26f540b7b5c4daf591e97
+      internalID: -1266362961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843c26200af30914a99f50059e5b380b
+      internalID: -1201497437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_120
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b682dbe9534172b4ca20779d4da428e8
+      internalID: 1623989618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_121
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4bb7f0d4c9f054c9a9b0d8a2ff5190
+      internalID: -1314608377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_122
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f623d349d948de4e9297fe3663a48b4
+      internalID: 2040529774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_123
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45836d8620702d488b5c83fc8f1f7f6
+      internalID: -1276987467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_124
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2d2e8b6426eb744acebdc9cc29a8d9
+      internalID: -835591555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_125
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d7beacbb52f0549adef313b86316e6
+      internalID: -393101221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_126
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847313da23f047649922bdf69a8a20dd
+      internalID: 525542886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_127
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c020df624a58da4b8eb95824c7522cf
+      internalID: 1901474628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_128
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d6f997f3fcc8498688cc52c939e54
+      internalID: -1648946618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fa40c023df2234986631ed1c4cecac
+      internalID: -312559009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_130
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8896160111555469ecc0f2b7183799
+      internalID: 1613921941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_131
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60a579cb7d03c7469dbcf0190f1c6dc
+      internalID: -1289874205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_132
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40312f2670e108643bb58fe0486b7d94
+      internalID: 834671056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_133
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501108383b4a7443a2ea057dcb1b9d9
+      internalID: 329597229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_134
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e5b21c8d1b3664dbfc8f1c9c1d1cfe
+      internalID: -1777366742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_135
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb2e0a8a2439242937b9cc99bd7cc8
+      internalID: -1215625015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_136
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091904fbd255a294e94da7be5c9f0188
+      internalID: 348434910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_137
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec0dfc9a8d635249b22c7770014b485
+      internalID: 82726067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_138
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd196dfef72ec4a9797616f942b7c1
+      internalID: 1277764993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_139
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0a4026b59f0334c8db83fb5c929c12
+      internalID: -1816700922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_140
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d42596e74f7ca642bba467908767abb
+      internalID: 594765512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31633a632ac2bda42888e81f12dbab1d
+      internalID: 1887812886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_142
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29bca7306c9eef4ba489f96711374b5
+      internalID: 940639243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_143
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f4fb6ceafe1b341ac73670940ce7b6
+      internalID: 1987068742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff912f68e380a6c479d3b46acc09b963
+      internalID: 1380819754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_145
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc751f8b8ba8bc149a9ed859c091e464
+      internalID: 324013992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_146
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888d0d9a41f58c47b5f3938fd2bbd7f
+      internalID: -1198072950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_147
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f71115dccc07434f8237117de75e12d
+      internalID: 1982329343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_148
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933039c31789074e821f3f2167fc78a
+      internalID: -485830441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_149
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40faef79e7b420543a3937761a1edba6
+      internalID: 310520012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_150
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c0b1e2d7e1dd47b9552b0b3990bca
+      internalID: 567641017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_151
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9e222530088a4fa395cb3aa9b09a6
+      internalID: -1363084444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_152
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1263877070993f644af097eeb6c2fdb7
+      internalID: 1622127013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_153
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfbc18006636846ac3aa2e2035a8b6
+      internalID: -2085575110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_154
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95dc145c35d3d4409b8baa630ac5e35
+      internalID: 15662329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_155
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eebfe022f5a7e4dadae1059d74da79
+      internalID: 1554892447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_156
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429a1c657809e2b4a981465c5d32361c
+      internalID: 96094748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_157
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1ac9ecc2dfa724a88154b969a32891
+      internalID: 1111120151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_158
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6760163e78f4cbc4da5a6ebcdd2f8e22
+      internalID: -777937483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994a77ba56a71b4e90bc24ee2ea8cf6
+      internalID: -1235103061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_160
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a91bd6e0552748bd24654f0765bf8
+      internalID: -1013777802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_161
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82eb87c2b49d92458d8db440a7c24cb
+      internalID: 189066705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_162
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b240caf78a587498379bb6f2ef2cf2
+      internalID: 1730394044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_163
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54425c17790e7b94e8e7d266ccb9d6c4
+      internalID: -1884880356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_164
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b6bd59c270e7048b2641cab3e1c27d
+      internalID: 992644629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_165
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c960f4ed0fe05284c91c540644d726d5
+      internalID: -1557810060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_166
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d31aa6899225b498d8b12b6cbcb55b
+      internalID: 721940951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_167
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a49d9be836c7e84d9b4a985b4da4b38
+      internalID: 1016875513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_168
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14084f422f86a04ba7813d490ea147f
+      internalID: 181412781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_169
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcbef809fb8be04dba5d6e940762859
+      internalID: 1930426519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_170
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a925a7b6651dd478891790bb2bc199
+      internalID: 2006920051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_171
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c1e341079f6f4a8d5c66f6acc3bcb
+      internalID: -741334753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_172
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19918915fa99d8740be1e61c4f9495b8
+      internalID: -636895546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_173
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4bc2ae3d6b89d419329615619beb29
+      internalID: -1570570988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_174
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535a278718b44d44d84dd8ddf47cf430
+      internalID: -39040362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_175
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbce00f8d4ae1f4192ed93022ecdc65
+      internalID: 865476105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_176
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d5d1e443a437649bf04bf9ce0da2f6
+      internalID: -1036689891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_177
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b8e7cbfbaf1db4b906172f0595aac7
+      internalID: 864548163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_178
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d64960b405e714cb03a10685d6e2ce
+      internalID: 1127992243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_179
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eee3a6eb60441941a8ae6cf950c12f4
+      internalID: 1572339680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_180
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b9b5961090a04fa95ebfe515ee12a
+      internalID: 1551384434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_181
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e25e4b26b78eb42befe85011ad5aba
+      internalID: 1417445842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_182
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4af5d38d4f98f247a48e57a19454232
+      internalID: 1428047749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_183
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d0e04aaa0d8b4aac19577a268a9e1
+      internalID: -1816879002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_184
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e5e4692358ca4c9f02dec94496b73
+      internalID: 828901003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_185
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43a598488fe3b4449592675915b5d1c
+      internalID: -1148243885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_186
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf56495d83da8d144a3faa62e8855b0b
+      internalID: 978943613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_187
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65167f687a99dec4ea33e07735d6c6ea
+      internalID: 293362908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_188
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528a37088882c38458b29ef1e7f51f02
+      internalID: 280300782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_189
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de23e1e9e1fc94cb90e2250a00be63
+      internalID: -643630656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_190
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a219b2c0a4b89b4686dcdff3f07e9bb
+      internalID: -856359287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_191
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5716412306d43f949922958e0a01ed6c
+      internalID: -1482403244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_192
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d698a3dbc126944ac9cc74de065ce4
+      internalID: -1117109694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_193
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d7d99a4112ef40b53e49908e61820
+      internalID: -29497804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_194
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d0742f14f45254cbee1c3ce0f5075f
+      internalID: 559624602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_195
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bcf878b6932094395f0107fd2f658b
+      internalID: -1051476590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_196
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ada506eb506fc40950fe12b8f273eb
+      internalID: -1937480351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_197
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bada7ab96fce84682ecd412ed11732
+      internalID: 1147502701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_198
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c8fef152f0c4d43bcbb454070a5df3
+      internalID: 1569802652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_199
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72d8a4f89ce7224abac0c77bb52e8d3
+      internalID: -859745942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_200
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff11cdb0b819444a3bea75e1314a4f
+      internalID: -1146618830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_201
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5943acf822d817c4a902208d97d0479f
+      internalID: -1639514416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_202
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a14c304b47cd4e47a6821916a00d141
+      internalID: 362679755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_203
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c88fa6899d144f84fe7433b229bdd
+      internalID: 250576860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_204
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6469c4020c0e0c4d89e185dd7897b8a
+      internalID: -781074851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_205
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4792d1cc4f5bf439d0a75e2207a1f6
+      internalID: -281967718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_206
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3686fb462a1f5444693012d20d281b77
+      internalID: -372407333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_207
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b72d428ca2b3044a4230ea84d29a74
+      internalID: 794819105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_208
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d91d9c04a7724abc80e60a3955e43
+      internalID: 199718851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Street_TileSet_Padded_209
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceedbd5b34eb29a43a451c8a974c2566
+      internalID: -1156291543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Street_TileSet_Padded_46: 1435887725
+      Street_TileSet_Padded_91: -1078287048
+      Street_TileSet_Padded_156: 96094748
+      Street_TileSet_Padded_178: 1127992243
+      Street_TileSet_Padded_161: 189066705
+      Street_TileSet_Padded_137: 82726067
+      Street_TileSet_Padded_183: -1816879002
+      Street_TileSet_Padded_193: -29497804
+      Street_TileSet_Padded_197: 1147502701
+      Street_TileSet_Padded_23: -86464072
+      Street_TileSet_Padded_15: -1007128935
+      Street_TileSet_Padded_103: -1802643037
+      Street_TileSet_Padded_208: 199718851
+      Street_TileSet_Padded_34: 527173206
+      Street_TileSet_Padded_99: 805666380
+      Street_TileSet_Padded_106: 1758560896
+      Street_TileSet_Padded_108: -842190565
+      Street_TileSet_Padded_16: 997744621
+      Street_TileSet_Padded_200: -1146618830
+      Street_TileSet_Padded_160: -1013777802
+      Street_TileSet_Padded_189: -643630656
+      Street_TileSet_Padded_85: -609064901
+      Street_TileSet_Padded_190: -856359287
+      Street_TileSet_Padded_37: 793905126
+      Street_TileSet_Padded_19: -1985980618
+      Street_TileSet_Padded_209: -1156291543
+      Street_TileSet_Padded_194: 559624602
+      Street_TileSet_Padded_70: 344814440
+      Street_TileSet_Padded_87: -2023427706
+      Street_TileSet_Padded_116: 1372524504
+      Street_TileSet_Padded_127: 1901474628
+      Street_TileSet_Padded_207: 794819105
+      Street_TileSet_Padded_105: -1140061403
+      Street_TileSet_Padded_140: 594765512
+      Street_TileSet_Padded_5: 737813884
+      Street_TileSet_Padded_90: 221381543
+      Street_TileSet_Padded_12: -1507123656
+      Street_TileSet_Padded_26: 5979598
+      Street_TileSet_Padded_159: -1235103061
+      Street_TileSet_Padded_86: 365684592
+      Street_TileSet_Padded_62: 130033117
+      Street_TileSet_Padded_47: 417980752
+      Street_TileSet_Padded_148: -485830441
+      Street_TileSet_Padded_29: 1681289605
+      Street_TileSet_Padded_112: 1845102270
+      Street_TileSet_Padded_22: -446339095
+      Street_TileSet_Padded_172: -636895546
+      Street_TileSet_Padded_80: -1630945845
+      Street_TileSet_Padded_162: 1730394044
+      Street_TileSet_Padded_78: -635823971
+      Street_TileSet_Padded_111: 975257482
+      Street_TileSet_Padded_72: 488445838
+      Street_TileSet_Padded_158: -777937483
+      Street_TileSet_Padded_179: 1572339680
+      Street_TileSet_Padded_8: 1510704974
+      Street_TileSet_Padded_44: -777237308
+      Street_TileSet_Padded_17: 1455579892
+      Street_TileSet_Padded_115: -831490373
+      Street_TileSet_Padded_13: -950858880
+      Street_TileSet_Padded_199: -859745942
+      Street_TileSet_Padded_206: -372407333
+      Street_TileSet_Padded_145: 324013992
+      Street_TileSet_Padded_125: -393101221
+      Street_TileSet_Padded_35: 1392083601
+      Street_TileSet_Padded_165: -1557810060
+      Street_TileSet_Padded_40: 60952250
+      Street_TileSet_Padded_182: 1428047749
+      Street_TileSet_Padded_79: 953105199
+      Street_TileSet_Padded_71: -229129371
+      Street_TileSet_Padded_168: 181412781
+      Street_TileSet_Padded_83: 1548530661
+      Street_TileSet_Padded_77: 1308634681
+      Street_TileSet_Padded_135: -1215625015
+      Street_TileSet_Padded_205: -281967718
+      Street_TileSet_Padded_57: 691280185
+      Street_TileSet_Padded_107: -790730075
+      Street_TileSet_Padded_67: 1708445999
+      Street_TileSet_Padded_118: -1266362961
+      Street_TileSet_Padded_102: 975000589
+      Street_TileSet_Padded_174: -39040362
+      Street_TileSet_Padded_28: 1392135207
+      Street_TileSet_Padded_176: -1036689891
+      Street_TileSet_Padded_25: -1726425805
+      Street_TileSet_Padded_129: -312559009
+      Street_TileSet_Padded_139: -1816700922
+      Street_TileSet_Padded_56: 1760466761
+      Street_TileSet_Padded_120: 1623989618
+      Street_TileSet_Padded_65: -1134857623
+      Street_TileSet_Padded_149: 310520012
+      Street_TileSet_Padded_92: -852772249
+      Street_TileSet_Padded_164: 992644629
+      Street_TileSet_Padded_95: -733095963
+      Street_TileSet_Padded_141: 1887812886
+      Street_TileSet_Padded_196: -1937480351
+      Street_TileSet_Padded_98: 1753959745
+      Street_TileSet_Padded_126: 525542886
+      Street_TileSet_Padded_42: 1889349692
+      Street_TileSet_Padded_175: 865476105
+      Street_TileSet_Padded_73: -2092921901
+      Street_TileSet_Padded_117: 1784117867
+      Street_TileSet_Padded_68: -349152783
+      Street_TileSet_Padded_32: 524618573
+      Street_TileSet_Padded_134: -1777366742
+      Street_TileSet_Padded_184: 828901003
+      Street_TileSet_Padded_198: 1569802652
+      Street_TileSet_Padded_104: -864447310
+      Street_TileSet_Padded_143: 1987068742
+      Street_TileSet_Padded_119: -1201497437
+      Street_TileSet_Padded_150: 567641017
+      Street_TileSet_Padded_146: -1198072950
+      Street_TileSet_Padded_167: 1016875513
+      Street_TileSet_Padded_133: 329597229
+      Street_TileSet_Padded_186: 978943613
+      Street_TileSet_Padded_75: -1854548413
+      Street_TileSet_Padded_43: -1025091771
+      Street_TileSet_Padded_51: 100577042
+      Street_TileSet_Padded_81: 2115558968
+      Street_TileSet_Padded_59: 229258732
+      Street_TileSet_Padded_155: 1554892447
+      Street_TileSet_Padded_123: -1276987467
+      Street_TileSet_Padded_128: -1648946618
+      Street_TileSet_Padded_154: 15662329
+      Street_TileSet_Padded_171: -741334753
+      Street_TileSet_Padded_41: -1059914209
+      Street_TileSet_Padded_101: 7374288
+      Street_TileSet_Padded_181: 1417445842
+      Street_TileSet_Padded_64: 2079319586
+      Street_TileSet_Padded_177: 864548163
+      Street_TileSet_Padded_60: 1124428523
+      Street_TileSet_Padded_0: -375772024
+      Street_TileSet_Padded_76: 755162142
+      Street_TileSet_Padded_38: -2058444435
+      Street_TileSet_Padded_66: -1089534984
+      Street_TileSet_Padded_53: -515342495
+      Street_TileSet_Padded_93: 1013229697
+      Street_TileSet_Padded_36: -676671532
+      Street_TileSet_Padded_203: 250576860
+      Street_TileSet_Padded_10: 736985825
+      Street_TileSet_Padded_54: 428166513
+      Street_TileSet_Padded_6: 483477247
+      Street_TileSet_Padded_201: -1639514416
+      Street_TileSet_Padded_173: -1570570988
+      Street_TileSet_Padded_151: -1363084444
+      Street_TileSet_Padded_45: -1224236451
+      Street_TileSet_Padded_124: -835591555
+      Street_TileSet_Padded_152: 1622127013
+      Street_TileSet_Padded_147: 1982329343
+      Street_TileSet_Padded_33: 996888886
+      Street_TileSet_Padded_136: 348434910
+      Street_TileSet_Padded_144: 1380819754
+      Street_TileSet_Padded_2: 1914007115
+      Street_TileSet_Padded_132: 834671056
+      Street_TileSet_Padded_74: -1905884041
+      Street_TileSet_Padded_27: -706472129
+      Street_TileSet_Padded_169: 1930426519
+      Street_TileSet_Padded_110: 62374249
+      Street_TileSet_Padded_170: 2006920051
+      Street_TileSet_Padded_39: 1994713768
+      Street_TileSet_Padded_31: 1348100685
+      Street_TileSet_Padded_48: -613527432
+      Street_TileSet_Padded_88: 1369172878
+      Street_TileSet_Padded_82: -1665460424
+      Street_TileSet_Padded_114: 1267322199
+      Street_TileSet_Padded_109: 1819329919
+      Street_TileSet_Padded_185: -1148243885
+      Street_TileSet_Padded_24: -1898505559
+      Street_TileSet_Padded_55: -1150460983
+      Street_TileSet_Padded_11: -1590983223
+      Street_TileSet_Padded_157: 1111120151
+      Street_TileSet_Padded_187: 293362908
+      Street_TileSet_Padded_96: 1036936689
+      Street_TileSet_Padded_94: -1720841830
+      Street_TileSet_Padded_7: -1781791669
+      Street_TileSet_Padded_89: -349959363
+      Street_TileSet_Padded_58: -1861318402
+      Street_TileSet_Padded_192: -1117109694
+      Street_TileSet_Padded_1: -597436903
+      Street_TileSet_Padded_21: 767644156
+      Street_TileSet_Padded_121: -1314608377
+      Street_TileSet_Padded_18: 2052634585
+      Street_TileSet_Padded_138: 1277764993
+      Street_TileSet_Padded_122: 2040529774
+      Street_TileSet_Padded_166: 721940951
+      Street_TileSet_Padded_100: -442747899
+      Street_TileSet_Padded_97: 1695509196
+      Street_TileSet_Padded_63: -249062024
+      Street_TileSet_Padded_69: 1390532310
+      Street_TileSet_Padded_131: -1289874205
+      Street_TileSet_Padded_4: 1024502179
+      Street_TileSet_Padded_50: 949963772
+      Street_TileSet_Padded_130: 1613921941
+      Street_TileSet_Padded_202: 362679755
+      Street_TileSet_Padded_188: 280300782
+      Street_TileSet_Padded_142: 940639243
+      Street_TileSet_Padded_14: 805973951
+      Street_TileSet_Padded_204: -781074851
+      Street_TileSet_Padded_163: -1884880356
+      Street_TileSet_Padded_195: -1051476590
+      Street_TileSet_Padded_3: -935395459
+      Street_TileSet_Padded_9: 1754859952
+      Street_TileSet_Padded_113: -1620712673
+      Street_TileSet_Padded_49: -1427243691
+      Street_TileSet_Padded_20: -553265307
+      Street_TileSet_Padded_61: -317391302
+      Street_TileSet_Padded_84: -1840675858
+      Street_TileSet_Padded_153: -2085575110
+      Street_TileSet_Padded_180: 1551384434
+      Street_TileSet_Padded_30: 1763918909
+      Street_TileSet_Padded_191: -1482403244
+      Street_TileSet_Padded_52: -1698235967
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 
@@ -15,6 +16,9 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private GameObject triggerArea;
     [SerializeField] private GameObject injectHover;
     [SerializeField] private GameObject playerHotbar;
+
+    public string HeroinGameScene;
+    public string CocaineGameScene;
 
     public Camera mainCam;
 
@@ -245,5 +249,7 @@ public class PlayerMove : MonoBehaviour
         mouseItemData.ItemCount.enabled = true;
         Input.ResetInputAxes();
         isConsuming = false;
+
+        SceneManager.LoadScene(HeroinGameScene);
     }
 }

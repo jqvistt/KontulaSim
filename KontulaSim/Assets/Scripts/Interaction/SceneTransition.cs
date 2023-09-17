@@ -52,6 +52,7 @@ public class SceneTransition : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
             Player.transform.position = spawnPos;
         }
+
     }
 
 

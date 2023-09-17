@@ -51,7 +51,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.16962671, g: 0, b: 0.3490566, a: 0.39215687}
+    - _ShadowColor: {r: 0.14117648, g: 0.14117648, b: 0.19607845, a: 0.39215687}
     - _ShadowDirection: {r: 1.82, g: -0.86, b: 0, a: 0.56}
     - _ShadowOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/The Mall.unity
     guid: 43d748e2173676146a50a2e4c1119c2d
+  - enabled: 1
+    path: Assets/Scenes/FindYourMommy.unity
+    guid: 710f83c71c822be429ee917b2a087ed0
   m_configObjects: {}
